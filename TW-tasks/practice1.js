@@ -4,7 +4,7 @@
 function integerToPrime(num) {
   var primeArr = [];
   for (let i = 2; i <= num; i++) {
-    while (i != num) {
+    while (i !== num) {
       if (num % i === 0) {
         primeArr.push(i);
         num = num / i;
