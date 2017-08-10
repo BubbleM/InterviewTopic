@@ -17,5 +17,5 @@ function findNum(arr) {
   return tempArr[0];
 }
 
-let arr = [1, 4, 3, 4, 2, 2, 3];
+let arr = [1, 2, 3, 2, 3, 4, 5, 5, 4];
 console.log(findNum(arr));
