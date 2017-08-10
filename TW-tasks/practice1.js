@@ -2,7 +2,7 @@
  * Created by bubble on 17-8-8.
  */
 function integerToPrime(num) {
-  var primeArr = [];
+  let primeArr = [];
   for (let i = 2; i <= num; i++) {
     while (i !== num) {
       if (num % i === 0) {
