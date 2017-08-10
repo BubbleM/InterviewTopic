@@ -2,9 +2,7 @@
  * Created by bubble on 17-8-10.
  */
 function findNum(arr) {
-
   let tempArr = [];
-
   arr.forEach(item => {
     if (!tempArr.includes(item)) {
       tempArr.push(item);
