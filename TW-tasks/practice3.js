@@ -4,18 +4,18 @@
 function findNum(arr) {
 
   let tempArr = [];
-  let result;
 
   arr.forEach(item => {
     if (!tempArr.includes(item)) {
       tempArr.push(item);
     } else {
-      result = item;
+      let index = tempArr.indexOf(item);
+      tempArr.splice(index, 1);
     }
   });
 
-  return result;
+  return tempArr[0];
 }
 
-let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 3];
+let arr = [1, 4, 3, 4, 2, 2, 3];
 console.log(findNum(arr));
