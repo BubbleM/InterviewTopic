@@ -8,7 +8,7 @@ function splitChainToArr(chain) {
 }
 
 function getIndexOfArr(arr, val) {
-  let index = arr.indexOf(val+'');
+  let index = arr.indexOf(val + '');
   return index;
 }
 
