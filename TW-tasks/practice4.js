@@ -14,7 +14,7 @@ function getIndexOfArr(arr, val) {
 
 function getChain(initialChain, deleteVal) {
   let chainArr = splitChainToArr(initialChain);
-  var index = getIndexOfArr(chainArr, deleteVal);
+  let index = getIndexOfArr(chainArr, deleteVal);
   while (index !== -1) {
     chainArr.splice(index, 1);
     index = getIndexOfArr(chainArr, deleteVal);
