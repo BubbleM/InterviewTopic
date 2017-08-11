@@ -14,13 +14,15 @@ function integerToPrime(num) {
     }
   }
   primeArr.push(num);
+
   return primeArr;
 }
 
 function printPrime(num) {
   let primeArr = integerToPrime(num);
   let str = num + '=' + primeArr.join('');
-  console.log(str);
+
+  return str;
 }
 
-printPrime(90);
+console.log(printPrime(90));
