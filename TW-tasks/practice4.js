@@ -4,11 +4,13 @@
 
 function splitChainToArr(chain) {
   let chainArr = chain.split('->');
+  
   return chainArr;
 }
 
 function getIndexOfArr(arr, val) {
   let index = arr.indexOf(val + '');
+  
   return index;
 }
 
