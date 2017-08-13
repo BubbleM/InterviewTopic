@@ -14,7 +14,7 @@ function findMiddleNum(arr) {
 function printMiddleNum(arr) {
   arr.sort((a, b) => {
     return a - b;
-  })
+  });
   console.log(findMiddleNum(arr));
 }
 
