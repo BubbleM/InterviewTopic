@@ -1,11 +1,3 @@
-function numCount(arr, num) {
-    let count = 0;
-    arr.forEach(item => {
-        if (item === num) {
-            count++;
-        }
-    });
-
-    return count;
-}
-console.log(numCount([1, 3, 7, 1 ,4], 1));
+/**
+ * Created by bubble on 17-8-15.
+ */
