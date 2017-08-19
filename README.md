@@ -12,6 +12,7 @@ JS面试题目练习集
 8. [找出数组 arr 中重复出现过的元素](https://github.com/BubbleM/InterviewTopic/blob/master/TW-tasks/practice8.js)
 9. [为数组 arr 中的每个元素求二次方](https://github.com/BubbleM/InterviewTopic/blob/master/TW-tasks/practice9.js)
 10. [在数组 arr 中，查找值与 item 相等的元素出现的所有位置](https://github.com/BubbleM/InterviewTopic/blob/master/TW-tasks/practice9.js)
+11. [数组去重](https://github.com/BubbleM/InterviewTopic/blob/master/TW-tasks/practice11.js)
 
 ## DOM练习
 1. [获取页面中所有元素标签中出现次数最多的标签](https://github.com/BubbleM/InterviewTopic/blob/master/DOM/practice1.js)
