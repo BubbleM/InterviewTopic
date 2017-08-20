@@ -39,10 +39,14 @@ function countChar(str) {
   let strArr = str.split('');
   let formatArr = formatArray(strArr);
   formatArr.sort(compare('count'));
-  result[formatArr[0].key] = formatArr[0].count;
+  formatArr.forEach(item => {
+    if (item.count === formatArr[0].count) {
+      result[item.key] = item.count;
+    }
+  });
 
   return result;
 }
 
-let str = 'abcsbaddbizdbas';
+let str = 'aaaaabbdbdbb';
 console.log(countChar(str));
