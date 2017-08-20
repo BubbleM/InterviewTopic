@@ -16,11 +16,6 @@ function formatArray(strArr) {
   return result;
 }
 
-function countMax(strArr) {
-  let formatArr = formatArray(strArr);
-  return {b: 4};
-}
-
 function compare(property) {
   return function (a, b) {
     let value1 = a[property];
