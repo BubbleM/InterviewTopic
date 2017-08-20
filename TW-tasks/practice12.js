@@ -1,7 +1,3 @@
-function includes(collection, ch) {
-  return collection.includes(ch);
-}
-
 function find(collection, ch) {
   return collection.find(item => item.key === ch);
 }
