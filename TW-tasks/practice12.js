@@ -16,20 +16,10 @@ function formatArray(strArr) {
   return result;
 }
 
-function compare(property) {
-  return function (a, b) {
-    let value1 = a[property];
-    let value2 = b[property];
-
-    return value2 - value1;
-  }
-}
-
 function countChar(str) {
   let result = {};
-  let strArr = str.split('');
+  let strArr = str.split('').sort();
   let formatArr = formatArray(strArr);
-  formatArr.sort(compare('count'));
   formatArr.forEach(item => {
     if (item.count === formatArr[0].count) {
       result[item.key] = item.count;
