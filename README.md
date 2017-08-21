@@ -29,6 +29,8 @@ JS面试题目练习集
 7. [统计从1到400亿之间的自然数中含有多少个1](https://github.com/BubbleM/InterviewTopic/blob/master/JS/practice7.js)
 8. [获取5个0~99之间不同的随机数](https://github.com/BubbleM/InterviewTopic/blob/master/JS/practice8.js)
 9. [找到在array1中出现而未在array2中出现的数字](https://github.com/BubbleM/InterviewTopic/blob/master/JS/practice9.js)
+10. [过滤掉数组内重复的元素](https://github.com/BubbleM/InterviewTopic/blob/master/JS/practice10.js)
+11. [扩展数组,去掉数组中全部最大和最小数字](https://github.com/BubbleM/InterviewTopic/blob/master/JS/practice11.js)
 
 ## 性能优化
 1. [大字符串拼接的优化]()
