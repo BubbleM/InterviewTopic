@@ -27,6 +27,8 @@ JS面试题目练习集
 5. [处理字符串abcd-ef-ghi为ghi&ef&abcd](https://github.com/BubbleM/InterviewTopic/blob/master/JS/practice5.js)
 6. [查看document对象的所有成员名称和类型](https://github.com/BubbleM/InterviewTopic/blob/master/JS/practice6.js)
 7. [统计从1到400亿之间的自然数中含有多少个1](https://github.com/BubbleM/InterviewTopic/blob/master/JS/practice7.js)
+8. [获取5个0~99之间不同的随机数](https://github.com/BubbleM/InterviewTopic/blob/master/JS/practice8.js)
+9. [找到在array1中出现而未在array2中出现的数字](https://github.com/BubbleM/InterviewTopic/blob/master/JS/practice9.js)
 
 ## 性能优化
 1. [大字符串拼接的优化]()
