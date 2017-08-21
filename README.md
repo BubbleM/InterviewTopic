@@ -21,6 +21,10 @@ JS面试题目练习集
 
 ## JS练习
 1. [输入n,输出n/3,不用乘除法]()
+2. [删除字符串左边的空白](https://github.com/BubbleM/InterviewTopic/blob/master/JS/practice2.js)
+3. [获取浏览器URL中查询字符串的参数](https://github.com/BubbleM/InterviewTopic/blob/master/JS/practice3.js)
+4. [自己实现字符串的反转](https://github.com/BubbleM/InterviewTopic/blob/master/JS/practice4.js)
+5. [处理字符串abcd-ef-ghi为ghi&ef&abcd](https://github.com/BubbleM/InterviewTopic/blob/master/JS/practice5.js)
 
 ## 性能优化
 1. [大字符串拼接的优化]()
