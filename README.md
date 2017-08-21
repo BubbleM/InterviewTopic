@@ -26,6 +26,7 @@ JS面试题目练习集
 4. [自己实现字符串的反转](https://github.com/BubbleM/InterviewTopic/blob/master/JS/practice4.js)
 5. [处理字符串abcd-ef-ghi为ghi&ef&abcd](https://github.com/BubbleM/InterviewTopic/blob/master/JS/practice5.js)
 6. [查看document对象的所有成员名称和类型](https://github.com/BubbleM/InterviewTopic/blob/master/JS/practice6.js)
+7. [统计从1到400亿之间的自然数中含有多少个1](https://github.com/BubbleM/InterviewTopic/blob/master/JS/practice7.js)
 
 ## 性能优化
 1. [大字符串拼接的优化]()
