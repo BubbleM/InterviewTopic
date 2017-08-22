@@ -4,7 +4,7 @@ function intersect(arr1, arr2){
     if (arr2.includes(item)) {
       let index = arr2.indexOf(item);
       result.push(item);
-      arr2[index] = '';
+      arr2.splice(index, 1);
     }
   });
 
