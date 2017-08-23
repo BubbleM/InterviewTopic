@@ -2,7 +2,7 @@ var result = [];
 
 function map(arr){
   arr.forEach(item => {
-    if (typeof(item) === 'object') {
+    if (item instanceof Array) {
       arguments.callee(item);
     } else {
       result.push(item);
