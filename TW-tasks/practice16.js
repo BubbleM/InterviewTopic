@@ -1,7 +1,7 @@
 function removeTargetToLast(arr, target) {
   let index = arr.indexOf(target);
-  let target1 = arr.splice(index, 1)[0];
-  arr.push(target1);
+  let removeItem = arr.splice(index, 1)[0];
+  arr.push(removeItem);
 
   return arr;
 }
