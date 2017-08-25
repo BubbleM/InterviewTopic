@@ -1,16 +1,30 @@
-function removeNumToLast(arr, target) {
-  let count = 0;
-  arr.find((value, index) => {
-    if (value === target) {
-      count++;
-      arr.splice(index, 1);
-    }
-  });
-  let removeArr = new Array(count).fill(target);
-  
-  return arr.concat(removeArr);
+function removeTargetToLast(arr, target) {
+  let index = arr.indexOf(target);
+  let target1 = arr.splice(index, 1)[0];
+  arr.push(target1);
+
+  return arr;
 }
 
-let nums = [0, 1, 0, 3, 12];
-let target = 0;
-console.log(removeNumToLast(nums, target));
+function findTargetCount(arr, target) {
+  let count = 0;
+  arr.forEach(item => {
+    if (item === target) {
+      count++;
+    }
+  });
+
+  return count;
+}
+
+function main() {
+  let nums = [0, 1, 0, 3, 12];
+  let target = 0;
+  let count = findTargetCount(nums, target);
+  for (let i = 0; i < count; i++) {
+    nums = removeTargetToLast(nums, target);
+  }
+  return nums;
+}
+
+main();
