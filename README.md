@@ -41,6 +41,7 @@ JS面试题目练习集
 ](https://github.com/BubbleM/InterviewTopic/blob/master/JS/practice14.js)
 15. [leftpad功能，就是字符串前面拼指定字符到固定长度](https://github.com/BubbleM/InterviewTopic/blob/master/JS/practice15.js)
 16. [将数组中所包含的某个元素找出，并放在数组后面](https://github.com/BubbleM/InterviewTopic/blob/master/JS/practice16.js)
+17. [找出1-10000之间的对称数](https://github.com/BubbleM/InterviewTopic/blob/master/JS/practice17.js)
 
 ## 性能优化
 1. [大字符串拼接的优化]()
