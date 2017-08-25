@@ -37,6 +37,7 @@ JS面试题目练习集
 14. [给定一个数组，该数组中的每个元素要么是个数组，要么是整数。将其变成一个只包含整数的简单数组。
 ](https://github.com/BubbleM/InterviewTopic/blob/master/JS/practice14.js)
 15. [leftpad功能，就是字符串前面拼指定字符到固定长度](https://github.com/BubbleM/InterviewTopic/blob/master/JS/practice15.js)
+16. [将数组中所包含的某个元素找出，并放在数组后面](https://github.com/BubbleM/InterviewTopic/blob/master/JS/practice16.js)
 
 ## 性能优化
 1. [大字符串拼接的优化]()
