@@ -14,9 +14,11 @@ JS面试题目练习集
 10. [在数组 arr 中，查找值与 item 相等的元素出现的所有位置](https://github.com/BubbleM/InterviewTopic/blob/master/TW-tasks/practice9.js)
 11. [数组去重](https://github.com/BubbleM/InterviewTopic/blob/master/TW-tasks/practice11.js)
 12. [判断一个字符串中出现次数最多的字符，并统计次数](https://github.com/BubbleM/InterviewTopic/blob/master/TW-tasks/practice12.js)
-13. [按照格式XXXX年XX月XX日XX时XX分XX秒动态显示时间，要求不满10的在前面补0](https://github.com/BubbleM/InterviewTopic/blob/master/TW-tasks/practice13.js)
-14. [输出明天的时间](https://github.com/BubbleM/InterviewTopic/blob/master/TW-tasks/practice14.js)
-
+13. [计算两个数组的交数组](https://github.com/BubbleM/InterviewTopic/blob/master/TW-tasks/practice13.js)
+14. [给定一个数组，该数组中的每个元素要么是个数组，要么是整数。将其变成一个只包含整数的简单数组。](https://github.com/BubbleM/InterviewTopic/blob/master/TW-tasks/practice14.js)
+15. [leftpad功能，就是字符串前面拼指定字符到固定长度](https://github.com/BubbleM/InterviewTopic/blob/master/TW-tasks/practice15.js)
+16. [将数组中所包含的某个元素找出，并放在数组后面](https://github.com/BubbleM/InterviewTopic/blob/master/TW-tasks/practice16.js)
+17. [给你一个整数n. 从 1 到 n 按照下面的规则打印每个数：](https://github.com/BubbleM/InterviewTopic/blob/master/TW-tasks/practice17.js)
 
 ## DOM练习
 1. [获取页面中所有元素标签中出现次数最多的标签](https://github.com/BubbleM/InterviewTopic/blob/master/DOM/practice1.js)
@@ -36,12 +38,9 @@ JS面试题目练习集
 10. [过滤掉数组内重复的元素](https://github.com/BubbleM/InterviewTopic/blob/master/JS/practice10.js)
 11. [扩展数组,去掉数组中全部最大和最小数字](https://github.com/BubbleM/InterviewTopic/blob/master/JS/practice11.js)
 12. [实现数组反转](https://github.com/BubbleM/InterviewTopic/blob/master/JS/practice12.js)
-13. [计算两个数组的交数组](https://github.com/BubbleM/InterviewTopic/blob/master/JS/practice13.js)
-14. [给定一个数组，该数组中的每个元素要么是个数组，要么是整数。将其变成一个只包含整数的简单数组。
-](https://github.com/BubbleM/InterviewTopic/blob/master/JS/practice14.js)
-15. [leftpad功能，就是字符串前面拼指定字符到固定长度](https://github.com/BubbleM/InterviewTopic/blob/master/JS/practice15.js)
-16. [将数组中所包含的某个元素找出，并放在数组后面](https://github.com/BubbleM/InterviewTopic/blob/master/JS/practice16.js)
-17. [找出1-10000之间的对称数](https://github.com/BubbleM/InterviewTopic/blob/master/JS/practice17.js)
+13. [按照格式XXXX年XX月XX日XX时XX分XX秒动态显示时间，要求不满10的在前面补0](https://github.com/BubbleM/InterviewTopic/blob/master/JS/practice13.js)
+14. [输出明天的时间](https://github.com/BubbleM/InterviewTopic/blob/master/JS/practice14.js)
+15. [找出1-10000之间的对称数](https://github.com/BubbleM/InterviewTopic/blob/master/JS/practice15.js)
 
 ## 性能优化
 1. [大字符串拼接的优化]()
