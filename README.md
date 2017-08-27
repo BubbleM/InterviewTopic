@@ -19,11 +19,13 @@ JS面试题目练习集
 15. [leftpad功能，就是字符串前面拼指定字符到固定长度](https://github.com/BubbleM/InterviewTopic/blob/master/TW-tasks/practice15.js)
 16. [将数组中所包含的某个元素找出，并放在数组后面](https://github.com/BubbleM/InterviewTopic/blob/master/TW-tasks/practice16.js)
 17. [给你一个整数n. 从 1 到 n 按照下面的规则打印每个数：](https://github.com/BubbleM/InterviewTopic/blob/master/TW-tasks/practice17.js)
+18. [给定编码如下，给出一个整数,返回解码方法的种数；](https://github.com/BubbleM/InterviewTopic/blob/master/TW-tasks/practice18.js)
 
 ## DOM练习
 1. [获取页面中所有元素标签中出现次数最多的标签](https://github.com/BubbleM/InterviewTopic/blob/master/DOM/practice1.js)
 2. [鼠标点击页面中的任意标签,alert该标签的名称](https://github.com/BubbleM/InterviewTopic/blob/master/DOM/practice2.js)
 3. [点击对应员工信息的删除字段,删除相应员工信息](https://github.com/BubbleM/InterviewTopic/blob/master/DOM/index1.html)
+4. [点击btn1,交换两个按钮](https://github.com/BubbleM/InterviewTopic/blob/master/DOM/index2.html)
 
 ## JS练习
 1. [输入n,输出n/3,不用乘除法]()
