@@ -26,6 +26,8 @@ function spliteResult(num) {
   return result;
 }
 
+console.log(spliteResult(123))
+
 function arrToCharCode(arr) {
   for (let i = 0; i < arr.length; i++) {
     for (let j = 0; j < arr[i].length; j++) {
@@ -47,4 +49,4 @@ function main(num) {
   return result;
 }
 
-console.log(main(123) + ' 解码方法的种数：' + main(123).length);
+console.log(main(12) + ' 解码方法的种数：' + main(12).length);
