@@ -20,6 +20,7 @@ JS面试题目练习集
 16. [将数组中所包含的某个元素找出，并放在数组后面](https://github.com/BubbleM/InterviewTopic/blob/master/TW-tasks/practice16.js)
 17. [给你一个整数n. 从 1 到 n 按照下面的规则打印每个数：](https://github.com/BubbleM/InterviewTopic/blob/master/TW-tasks/practice17.js)
 18. [给定编码如下，给出一个整数,返回解码方法的种数；](https://github.com/BubbleM/InterviewTopic/blob/master/TW-tasks/practice18.js)
+19. [输出对象中值大于2的key的数组](https://github.com/BubbleM/InterviewTopic/blob/master/TW-tasks/practice19.js)
 
 ## DOM练习
 1. [获取页面中所有元素标签中出现次数最多的标签](https://github.com/BubbleM/InterviewTopic/blob/master/DOM/practice1.js)
@@ -43,9 +44,15 @@ JS面试题目练习集
 13. [按照格式XXXX年XX月XX日XX时XX分XX秒动态显示时间，要求不满10的在前面补0](https://github.com/BubbleM/InterviewTopic/blob/master/JS/practice13.js)
 14. [输出明天的时间](https://github.com/BubbleM/InterviewTopic/blob/master/JS/practice14.js)
 15. [找出1-10000之间的对称数](https://github.com/BubbleM/InterviewTopic/blob/master/JS/practice15.js)
+16. [将一个表单中的值同时提交到两个页面](https://github.com/BubbleM/InterviewTopic/blob/master/JS/index2.html)
+17. [正则表达式](https://github.com/BubbleM/InterviewTopic/blob/master/JS/practice17.js)
+18. [将一个字符串中所有单词的第一个字符转换为大写](https://github.com/BubbleM/InterviewTopic/blob/master/JS/practice18.js)
 
 ## 性能优化
 1. [大字符串拼接的优化]()
 
 ## 算法
 1. [递归]()
+
+## 其他
+1. [函数参数传递]()

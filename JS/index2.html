@@ -2,9 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>将一个表单的内容同时提交到两个页面</title>
+    <script type="text/javascript">
+        function send_2page_f(formname, page1, target1, page2, target2) {
+          with(eval('document.'+formname)) {
+            action = page1
+            target = target1
+            submit()
+            action = page2
+            target = target2
+            submit()
+          }
+        }
+    </script>
 </head>
 <body>
-$END$
+<form name="form">
+    <input type="button" onclick="send_2page_f('form','01.asp','01','02.asp','02')" value="提交">
+</form>
 </body>
 </html>
