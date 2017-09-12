@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>自动匹配随机文本中的链接部分并将其转换成a标签</title>
+  <style type="text/css">
+    a {
+      color: #00bc9b;
+    }
+  </style>
+</head>
+<body>
+<div id="jsContainer">
+  这里会给出一段随机http://www.hello.com文本，可能包含一些链接，比如https://www.baidu.com，或者
+  www.baidu.com?from=onlineExam，如果出现链接文本，请给该链接文本加上链接标签，用户点击后能直接在新窗口中打开该链接。
+</div>
+<script type="text/javascript">
+  function link() {
+    let result = [];
+    let node = document.getElementById('jsContainer');
+    let container = node.innerText;
+    let pattern = /(http(s)?:\/\/\w*.\w*.\w*)|(www\.\w*\.\w*\?\w*=\w*)/g;
+    var index = true;
+
+    while (index) {
+      let s = pattern.exec(container);
+      index = pattern.lastIndex;
+      result.push(s);
+    }
+
+    let str = '';
+    for (match of result) {
+      if (match) {
+        if (str) {
+          str = str.replace(match[0], `<a href="${match[0]}" target="_blank">${match[0]}</a>`);
+        } else {
+          str = container.replace(match[0], `<a href="${match[0]}" target="_blank">${match[0]}</a>`);
+        }
+      }
+    }
+    node.innerHTML = str;
+  }
+
+  link();
+</script>
+</body>
+</html>
